@@ -31,10 +31,10 @@ while True:
             x = int(landmark.x * frame_w)
             y = int(landmark.y * frame_h)
         if (left[0].y - left[1].y) < 0.009:
-            pyautogui.click()
-            pyautogui.sleep(1)
-        if (right[0].y - right[1].y) < 0.009:
-            print(right[0].y - right[1].y)
+            if(right[0].y - right[1].y) > 0.009:
+                pyautogui.click()
+                pyautogui.sleep(1)
+        elif (right[0].y - right[1].y) < 0.009:
             pyautogui.click(button="right")
             pyautogui.sleep(1)
     cv2.imshow('Eye Controlled Mouse', frame)
