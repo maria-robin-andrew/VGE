@@ -1,0 +1,3 @@
+Some companies during Covid-19 use virtual mouse with eye gaze controls to reduce the spread of the pandemic disease in an onsite workspaces. Third party companies developed these software. The companies which use these will not much work since it is not efficient for fit human being to control and work using the eye for a longer time.​
+
+Many people have created projects regarding this system last six-eight years. The sole purpose of these developers for development of these projects may differ. 
